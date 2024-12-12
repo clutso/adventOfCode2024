@@ -6,8 +6,6 @@ def main():
     with open("day1/input.txt") as file: 
         data = file.read().split()
 
-    #data = data.split()
-
     for idx, num in enumerate(data):
         if idx%2 != 0 :
             list2.append(int(num))
